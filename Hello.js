@@ -2,7 +2,7 @@
 
 var hello = function()
 {
-console.log("Hello world JS!!");
+console.log("Finished");
 };
 
 module.exports = hello;
