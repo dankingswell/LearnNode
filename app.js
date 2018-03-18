@@ -1,4 +1,5 @@
 "use strict";
-console.log("Hello world JS!");
 
-var a = 1;
+var hello = require("./Hello.js");
+
+hello();
