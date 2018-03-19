@@ -1,8 +1,9 @@
 "use strict";
 
-var hello = require("./Hello.js");
-var fs = require("fs");
-var zlib = require("zlib");
+const hello = require("./Hello.js");
+const fs = require("fs");
+const zlib = require("zlib");
+const http = require("http");
 
 
 

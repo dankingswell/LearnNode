@@ -7,11 +7,13 @@ var fs =  require("fs");
 http.createServer(function(req, res)
 {
     res.writeHead(200,
-         { "Content-Type" :"text/html" }
+         { "Content-Type" :"application/Json" }
         );
-    var html = fs.readFileSync(__dirname + "/index.htm");
-    console.log("Server has recieved a request.");
-    res.end(html);
-    
+        var obj = {
+            First:'Dan',
+            Last:"King"
+        };
+        res.end(JSON.stringify(obj));
 
 }).listen(1300,"127.0.0.1");
+
