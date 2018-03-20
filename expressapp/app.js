@@ -35,6 +35,7 @@ http.createServer(function(req,res){
     }
 }).listen(3000,"127.0.0.1")*/
 
+
 app.get("/",function(req,res)
 {
     console.log("responsed init for get")
